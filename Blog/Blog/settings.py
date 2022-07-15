@@ -26,9 +26,9 @@ print(BASE_DIR)
 SECRET_KEY = 'django-insecure-m-)_g(1g0t$z8$mc-(&$04=o+097hto5im@d5$22g-ygaf7%dx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['marv-blog.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
