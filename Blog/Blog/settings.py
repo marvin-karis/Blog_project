@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # own app
-    'pages'
+    'pages',
 ]
 
 MIDDLEWARE = [
@@ -138,3 +138,4 @@ print(STATIC_ROOT)
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'marvinirungu58@gmail.com'
